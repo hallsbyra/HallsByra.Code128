@@ -1,0 +1,1 @@
+﻿Tiny console application that can be used for profiling in VS.
