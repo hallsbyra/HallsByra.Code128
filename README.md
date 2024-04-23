@@ -1,6 +1,6 @@
 # HallsByra.Code128
 
-[![NuGet](https://img.shields.io/nuget/v/HallsByra.Coded128?style=flat)](https://www.nuget.org/packages/HallsByra.Coded128/)
+[![NuGet](https://img.shields.io/nuget/v/HallsByra.Code128?style=flat)](https://www.nuget.org/packages/HallsByra.Code128/)
 
 An optimizing [Code 128](https://en.wikipedia.org/wiki/Code_128) encoder for producing barcode glyphs that can be rendered using a barcode font such as [Libre Barcode 128](https://fonts.google.com/specimen/Libre+Barcode+128).
 
