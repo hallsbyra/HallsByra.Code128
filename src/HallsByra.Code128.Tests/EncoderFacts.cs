@@ -17,6 +17,7 @@ public class EncoderFacts(ITestOutputHelper output)
     [InlineData("\u0000", "Ë``Î")]
     [InlineData("\u0000a", "Ë`ÆaKÎ")]
     [InlineData("07", "Í')Î")]
+    [InlineData("12456-asdf", "Í,MÈ6-asdf8Î")]
     public void Encode_encodes_some_strings_into_expected_output(string input, string expected)
     {
         var encoded = Code128Encoder.Encode(input);
